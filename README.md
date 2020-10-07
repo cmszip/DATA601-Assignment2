@@ -10,7 +10,7 @@ This project's task is to use an API to retrieve temperature forecast data and c
 
 * Data - Folder containing datasets used in this project.
   * Baltimore7DayForecast.csv - dataset of Baltimore's forecasted temperatures initially retrieved from OpenWeather API.
-  * USW00093721.csv - dataset of temperature and precipitation readings from the US Weather Station in Baltimore. Taken from Carnegie Mellon University at this webpage.
+  * USW00093721.csv - dataset of temperature and precipitation readings from the US Weather Station in Baltimore. Taken from Carnegie Mellon University at [this webpage](https://kilthub.cmu.edu/articles/dataset/Compiled_daily_temperature_and_precipitation_data_for_the_U_S_cities/7890488?file=20881932).
   * CombinedWeather.csv - cleaned dataset formed from the merging of the two previously mentioned datasets.
 * Images - Folder containing images used in this project.
 * Notebooks - Folder containing the Jupyter notebooks used in this project.
@@ -39,6 +39,8 @@ Data was pulled from two different sources: OpenWeather API and from Carnegie Me
 In order to use OpenWeather's API, you must first create an account [at this page](https://openweathermap.org/api) to receive your personal API key. Accounts vary in price and access, but this project uses data that can be gathered from the free account. The specific API we used was [OpenWeather's One Call API](https://openweathermap.org/api/one-call-api), which pulls forecasted weather data of eight days for a selected latitude and longitude. Because this project is focused on Baltimore's forecast, the values for latitude and longitude were those for Baltimore, MD.
 
 An important note: this project can be replicated, but not for the exact same dates, as this project pulled data on October 3, 2020 to receive a forecast from October 3, 2020 to October 10, 2020. Instead, if you wish to replicate this project, you can use [OpenWeather's One Call API](https://openweathermap.org/api/one-call-api) to pull forecasting data for the week ahead of when you run the code seen in the notebook. From there, you will need to alter the code used to clean the dataset from Carnegie Mellon University. That dataset is taken from [this csv]. The alterations you should make are in the seventh code block of the [data acquisition and cleaning notebook], specifically within the "Pull and Clean Historical Data" section and beneath "# Remove dates outside forecast range". Modify the month(s) and days you wish to focus on or exclude. Once you've done this, you will be able to replicate this project for the time you wish to conduct it.
+
+The dataset from Carnegie Mellon University contains data from the US Weather Station in Baltimore. These include daily weather readings from 1871 to 2018. Because the US Weather Station in Baltimore moved in 1950 from downtown Baltimore to the Baltimore Washington Thurgood Marshall International Airport (BWI), we only used data dating from 1950 and later.
 
 Below is information on each dataset and the packages used in this project:
 
