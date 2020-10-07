@@ -16,6 +16,7 @@ This project's task is to use an API to retrieve temperature forecast data and c
 * Notebooks - Folder containing the Jupyter notebooks used in this project.
   * Notebook 1 - Weather Data Acquisition & Cleaning - Jupyter notebook where OpenWeather API was called to retrieve data, and datasets were cleaned in preparation for analysis. Code to use API and save the data retrieved can be found in the second codeblock. 
   * Notebook 2 - Weather Data Analysis - Jupyter notebook where data analysis is conducted to answer research question.
+* <b>[License](https://github.com/cmszip/DATA601-Assignment2/blob/main/LICENSE)</b> - MIT license and copyright.
 
 ## Motivation
 
@@ -106,6 +107,6 @@ One of the main limitations of this project regards the dataset. It is only 568 
 
 Clifton Saul
 
-## [License & copyright] 
+## [License & copyright](https://github.com/cmszip/DATA601-Assignment2/blob/main/LICENSE) 
 
 © Clifton M Saul Jr.
