@@ -2,7 +2,7 @@
 # Forecasting in Hindsight: Assessing if Baltimore's 8 Day Forecasted Temperatures are in Line with Historical Norms
 <b>by Clifton Saul</b>
 
-## Project Background & Overview
+## Project Overview & Background
 
 This project's task is to use an API to retrieve temperature forecast data and compare it to historical temperatures for those same days. This topic was chosen from the author's own personal interests in weather and his hometown of Baltimore. It was also chosen because it uses a free API and is therefore easily replicated. There does not appear to be a similar project available on Github currently, based on a limited search on Google. There is, however, a lot of interesting data science projects regarding the weather, from using machine learning to develop weather forecasts, to app development, to tornado prediction, and more.
 
@@ -14,7 +14,7 @@ To be completed
 Fall is a season of change and transition. But one thing never seems to change: people will talk about the weather. Conversation and jokes abound about the supposed craziness of the weather and temperature changes.
 ![Image of Maryland Weather](https://i.pinimg.com/originals/c8/bb/06/c8bb061b99aa996672391f44b9bec5a7.jpg)
 
-However, we rarely stop and take a moment to wonder if the weather is actually odd or if it's typical for the given time of year.
+However, we rarely stop and take a moment to wonder if the weather is actually odd or if it's typical for the given time of year. People should be able to discern if the weather truly is uncommon, and the author wants to provide a useful tool for others to do just that.
 
 ## Goals
 
@@ -31,7 +31,7 @@ In order to use OpenWeather's API, you must first create an account [at this pag
 
 An important note: this project can be replicated, but not for the exact same dates, as this project pulled data on October 3, 2020 to receive a forecast from October 3, 2020 to October 10, 2020. Instead, if you wish to replicate this project, you can use [OpenWeather's One Call API](https://openweathermap.org/api/one-call-api) to pull forecasting data for the week ahead of when you run the code seen in the notebook. From there, you will need to alter the code used to clean the dataset from Carnegie Mellon University. That dataset is taken from [this csv]. The alterations you should make are in the seventh code block of the [data acquisition and cleaning notebook], specifically within the "Pull and Clean Historical Data" section and beneath "# Remove dates outside forecast range". Modify the month(s) and days you wish to focus on or exclude. Once you've done this, you will be able to replicate this project for the time you wish to conduct it.
 
-Below is information on each dataset in this project, including the finalized one:
+Below is information on each dataset and the packages used in this project:
 
 #### The OpenWeather API 
 The original dataset of the 8 day forecast includes:
@@ -76,5 +76,18 @@ The original dataset of the 8 day forecast includes:
       * float64: 3
       * int64: 3
       * object: 1
+      
+#### Packages
+Packages used to retrieve, clean, alter, and analyze the data included:
+ * pandas   * json
+ * requests * datetime
+ * numpy    * matplotlib
+ * seaborn
 
+## Contributors
 
+Clifton Saul
+
+## [License & copyright] 
+
+© Clifton M Saul Jr.
