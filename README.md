@@ -9,13 +9,13 @@ This project's task is to use an API to retrieve temperature forecast data and c
 ## Repo Contents & Navigation
 
 * Data - Folder containing datasets used in this project.
- * Baltimore7DayForecast.csv - dataset of Baltimore's forecasted temperatures initially retrieved from OpenWeather API.
- * USW00093721.csv - dataset of temperature and precipitation readings from the US Weather Station in Baltimore. Taken from Carnegie Mellon University at this webpage.
- * CombinedWeather.csv - cleaned dataset formed from the merging of the two previously mentioned datasets.
+  * Baltimore7DayForecast.csv - dataset of Baltimore's forecasted temperatures initially retrieved from OpenWeather API.
+  * USW00093721.csv - dataset of temperature and precipitation readings from the US Weather Station in Baltimore. Taken from Carnegie Mellon University at this webpage.
+  * CombinedWeather.csv - cleaned dataset formed from the merging of the two previously mentioned datasets.
 * Images - Folder containing images used in this project.
 * Notebooks - Folder containing the Jupyter notebooks used in this project.
- * Notebook 1 - Weather Data Acquisition & Cleaning - Jupyter notebook where OpenWeather API was called to retrieve data, and datasets were cleaned in preparation for analysis. Code to use API and save the data retrieved can be found in the second codeblock. 
- * Notebook 2 - Weather Data Analysis - Jupyter notebook where data analysis is conducted to answer research question.
+  * Notebook 1 - Weather Data Acquisition & Cleaning - Jupyter notebook where OpenWeather API was called to retrieve data, and datasets were cleaned in preparation for analysis. Code to use API and save the data retrieved can be found in the second codeblock. 
+  * Notebook 2 - Weather Data Analysis - Jupyter notebook where data analysis is conducted to answer research question.
 
 ## Motivation
 
