@@ -79,11 +79,20 @@ The original dataset of the 8 day forecast includes:
       
 #### Packages
 Packages used to retrieve, clean, alter, and analyze the data included:
- |----------|------------|
- | pandas   | json       |
- | requests | datetime   |
- | numpy    | matplotlib |
- | seaborn  |
+ * datetime
+ * json
+ * matplotlib
+ * numpy
+ * pandas
+ * requests
+ * seaborn
+ 
+## Summary
+
+The forecasted temperatures for Baltimore, MD, USA for the week dating from October 3, 2020 to October 10, 2020 are common for the time period historically. The average forecasted high temperature is approximately 1.5 degrees Fahrenheit below the average high from 1950 to 2018. However, the average forecasted low temperature is more than 6 degrees Fahrenheit above the the average low from 1950 to 2018. What is most notable is that the temperature is rather stable, as the difference between the forecasted high and low temperatures is only 63.68% of the average historic difference between high and low temperatures. This means that we can expect less temperature change during the upcoming week than is typical. No heavy coats needed yet. 
+
+## Limitations
+One of the main limitations of this project regards the dataset. It is only 568 rows. This is due mainly to the small window of time we are exploring (an eight day period). Additionally, while the original dataset from Carnegie Mellon University contains data beginning in 1871, we decided to remove all data from before 1950. The reasoning behind this is that the original US Weather Station for Baltimore was located in downtown Baltimore until 1950, when it was moved to its current location at the airport that is now known as BWI. For consistency of data, the decision to shrink the dataset was made. Further exploration to compare the forecast to dates beginning in the 1870s could be done, however.
 
 ## Contributors
 
