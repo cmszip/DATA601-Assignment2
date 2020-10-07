@@ -15,7 +15,7 @@ This project's task is to use an API to retrieve temperature forecast data and c
 * <b>[Images](https://github.com/cmszip/DATA601-Assignment2/tree/main/Images)</b> - Folder containing images used in this project.
 * <b>[Notebooks](https://github.com/cmszip/DATA601-Assignment2/tree/main/Notebooks)</b> - Folder containing the Jupyter notebooks used in this project.
   * <b>[Notebook 1 - Weather Data Acquisition & Cleaning](https://github.com/cmszip/DATA601-Assignment2/blob/main/Notebooks/Notebook%201%20-%20Weather%20Data%20Acquisition%20%26%20Cleaning.ipynb)</b> - Jupyter notebook where OpenWeather API was called to retrieve data, and datasets were cleaned in preparation for analysis. Code to use API and save the data retrieved can be found in the second codeblock. 
-  * <b>[Notebook 2 - Weather Data Analysis](https://github.com/cmszip/DATA601-Assignment2/blob/main/Notebooks/Notebook%202%20-%20Weather%20Data%20Analysis.ipynb) - Jupyter notebook where data analysis is conducted to answer research question.
+  * <b>[Notebook 2 - Weather Data Analysis](https://github.com/cmszip/DATA601-Assignment2/blob/main/Notebooks/Notebook%202%20-%20Weather%20Data%20Analysis.ipynb)</b> - Jupyter notebook where data analysis is conducted to answer research question.
   * <b>[Notebook 3 - Summary Presentation](https://github.com/cmszip/DATA601-Assignment2/blob/main/Notebooks/Notebook%203%20-%20Summary%20Presentation.ipynb)</b> - Jupyter notebook that provides the data analysis from Notebook 2 without viewing the code. This is meant to provide a cleaner notebook to read from.
 * <b>[License](https://github.com/cmszip/DATA601-Assignment2/blob/main/LICENSE)</b> - MIT license and copyright.
 
