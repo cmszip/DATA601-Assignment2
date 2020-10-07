@@ -79,6 +79,7 @@ The original dataset of the 8 day forecast includes:
       
 #### Packages
 Packages used to retrieve, clean, alter, and analyze the data included:
+ |----------|------------|
  | pandas   | json       |
  | requests | datetime   |
  | numpy    | matplotlib |
