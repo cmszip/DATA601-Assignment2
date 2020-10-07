@@ -8,14 +8,15 @@ This project's task is to use an API to retrieve temperature forecast data and c
 
 ## Repo Contents & Navigation
 
-* Data - Folder containing datasets used in this project.
-  * Baltimore7DayForecast.csv - dataset of Baltimore's forecasted temperatures initially retrieved from OpenWeather API.
-  * USW00093721.csv - dataset of temperature and precipitation readings from the US Weather Station in Baltimore. Taken from Carnegie Mellon University at [this webpage](https://kilthub.cmu.edu/articles/dataset/Compiled_daily_temperature_and_precipitation_data_for_the_U_S_cities/7890488?file=20881932).
-  * CombinedWeather.csv - cleaned dataset formed from the merging of the two previously mentioned datasets.
-* Images - Folder containing images used in this project.
-* Notebooks - Folder containing the Jupyter notebooks used in this project.
-  * Notebook 1 - Weather Data Acquisition & Cleaning - Jupyter notebook where OpenWeather API was called to retrieve data, and datasets were cleaned in preparation for analysis. Code to use API and save the data retrieved can be found in the second codeblock. 
-  * Notebook 2 - Weather Data Analysis - Jupyter notebook where data analysis is conducted to answer research question.
+* <b>[Data](https://github.com/cmszip/DATA601-Assignment2/tree/main/Data)</b> - Folder containing datasets used in this project.
+  * <b>[Baltimore7DayForecast.csv](https://github.com/cmszip/DATA601-Assignment2/tree/main/Data)</b> - dataset of Baltimore's forecasted temperatures initially retrieved from OpenWeather API. See [Notebook 1](https://github.com/cmszip/DATA601-Assignment2/blob/main/Notebooks/Notebook%201%20-%20Weather%20Data%20Acquisition%20%26%20Cleaning.ipynb) for more details on using this API.
+  * <b>[USW00093721.csv](https://github.com/cmszip/DATA601-Assignment2/blob/main/Data/USW00093721.csv)</b> - dataset of temperature and precipitation readings from the US Weather Station in Baltimore. Taken from Carnegie Mellon University at [this webpage](https://kilthub.cmu.edu/articles/dataset/Compiled_daily_temperature_and_precipitation_data_for_the_U_S_cities/7890488?file=20881932).
+  * <b>[CombinedWeather.csv](https://github.com/cmszip/DATA601-Assignment2/blob/main/Data/CombinedWeather.csv)</b> - cleaned dataset formed from the merging of the two previously mentioned datasets.
+* <b>[Images](https://github.com/cmszip/DATA601-Assignment2/tree/main/Images)</b> - Folder containing images used in this project.
+* <b>[Notebooks](https://github.com/cmszip/DATA601-Assignment2/tree/main/Notebooks)</b> - Folder containing the Jupyter notebooks used in this project.
+  * <b>[Notebook 1 - Weather Data Acquisition & Cleaning](https://github.com/cmszip/DATA601-Assignment2/blob/main/Notebooks/Notebook%201%20-%20Weather%20Data%20Acquisition%20%26%20Cleaning.ipynb)</b> - Jupyter notebook where OpenWeather API was called to retrieve data, and datasets were cleaned in preparation for analysis. Code to use API and save the data retrieved can be found in the second codeblock. 
+  * <b>[Notebook 2 - Weather Data Analysis](https://github.com/cmszip/DATA601-Assignment2/blob/main/Notebooks/Notebook%202%20-%20Weather%20Data%20Analysis.ipynb) - Jupyter notebook where data analysis is conducted to answer research question.
+  * <b>[Notebook 3 - Summary Presentation](https://github.com/cmszip/DATA601-Assignment2/blob/main/Notebooks/Notebook%203%20-%20Summary%20Presentation.ipynb)</b> - Jupyter notebook that provides the data analysis from Notebook 2 without viewing the code. This is meant to provide a cleaner notebook to read from.
 * <b>[License](https://github.com/cmszip/DATA601-Assignment2/blob/main/LICENSE)</b> - MIT license and copyright.
 
 ## Motivation
