@@ -4,7 +4,7 @@
 
 ## Project Overview & Background
 
-This project's task is to use an API to retrieve temperature forecast data and compare it to historical temperatures for those same days. This topic was chosen from the author's own personal interests in weather and his hometown of Baltimore. It was also chosen because it uses a free API and is therefore easily replicated. There does not appear to be a similar project available on Github currently, based on a limited search on Google. There is, however, a lot of interesting data science projects regarding the weather, from using machine learning to develop weather forecasts, to app development, to tornado prediction, and more.
+This project's task is to use an API to retrieve temperature forecast data and compare it to historical temperatures for those same days. This topic was chosen from the author's own personal interests in weather and his hometown of Baltimore. It was also chosen because it uses a free API and is therefore easily replicated. There does not appear to be a similar project available on Github currently, based on a some searches conducted via Google. There are, however, a lot of interesting data science projects on Github regarding the weather, from using machine learning to develop weather forecasts, to app development, to tornado prediction, and more.
 
 ## Repo Contents & Navigation
 
